@@ -6,6 +6,8 @@ Sample codes, demo's &amp; example programs for the Raspberry Pi workshop (Feb 1
 * Blink in Python
 * Blink in node.js
 
-##demo code
-A very wrong implementation of a node server. Almosts gets the task done.
+##Demo code
+A very wrong hacked implementation of a node server. But gets the task done.
 
+##Workshop slides
+Slides can be accessed using the link https://docs.google.com/presentation/d/1Rg12xrUIeAMwx4q0_ZeRPe5b8x9yPrlOUHDpqol7Nhg/edit?usp=sharing
