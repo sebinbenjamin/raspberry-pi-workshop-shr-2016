@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>
+		Smart Kettle
+	</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container pagination-centered vcenter">
+	  <div class="row" style="padding-top: 20%;">
+			<div class="col-md-4 col-md-offset-5">
+							<button id="start" type="button" class="btn btn-primary btn-lg ">Make Coffee</button>
+			</div>
+	  </div>
+	  <div class="row" style="padding-top: 1%; padding-bottom:20%;">
+			<div class="col-md-4 col-md-offset-5">
+					<button id="stop" type="button" class="btn btn-primary btn-lg ">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</button>
+			</div>
+	  </div>
+	</div>
+	<script>
+			document.getElementById('start').onclick = function() {
+		    window.open('http://192.168.143.107:81/start', '_blank');
+			};
+			document.getElementById('stop').onclick = function() {
+				window.open('http://192.168.143.107:81/stop', '_blank');
+			};
+
+	</script>
+</body>
+</html>
